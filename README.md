@@ -16,10 +16,18 @@ Jarvis is a smart voice assistant inspired by Iron Man's J.A.R.V.I.S. It listens
 Python, SpeechRecognition, pyttsx3, PyAudio, (add any APIs you use)
 
 ## 🚀 Getting Started
-1. Clone the repo: `git clone https://github.com/your-username/jarvis.git`
+1. Clone the repo: `git clone https://github.com/pavitrash789-dot/Jarvis.git`
 2. Install dependencies: `pip install -r requirements.txt`
-3. Run: `python jarvis.py`
-4. Say "Hey Jarvis" and give a command!
+3. Configure `.env`:
+   ```bash
+   cp .env.example .env
+   # Add your GEMINI_API_KEY
+   ```
+4. Run:
+   ```bash
+   ./run.sh            # Voice mode
+   ./run.sh --keyboard # Text mode
+   ```
 
 ## 📌 Future Improvements
 - Wake-word detection
